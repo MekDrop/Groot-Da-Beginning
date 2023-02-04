@@ -17,5 +17,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_test2","order":1,"path":"objects/obj_test2/obj_test2.yy",},
+    {"name":"Object3","order":2,"path":"objects/Object3/Object3.yy",},
   ],
 }
