@@ -33,11 +33,16 @@
   },
   "resources": [
     {"id":{"name":"obj_test2","path":"objects/obj_test2/obj_test2.yy",},"order":0,},
+    {"id":{"name":"GrassTexture","path":"objects/GrassTexture/GrassTexture.yy",},"order":0,},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"order":0,},
+    {"id":{"name":"UndergroundTexture","path":"objects/UndergroundTexture/UndergroundTexture.yy",},"order":0,},
+    {"id":{"name":"Grass","path":"sprites/Grass/Grass.yy",},"order":0,},
     {"id":{"name":"obj_test3","path":"objects/obj_test3/obj_test3.yy",},"order":0,},
     {"id":{"name":"SmallTree","path":"sprites/SmallTree/SmallTree.yy",},"order":0,},
+    {"id":{"name":"Clouds","path":"sprites/Clouds/Clouds.yy",},"order":0,},
     {"id":{"name":"BigTree","path":"sprites/BigTree/BigTree.yy",},"order":0,},
     {"id":{"name":"Object3","path":"objects/Object3/Object3.yy",},"order":0,},
+    {"id":{"name":"UndergroundSprite","path":"sprites/UndergroundSprite/UndergroundSprite.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
