@@ -1,1 +1,1 @@
-image_blend = c_dkgray;
+image_blend = c_blue;
