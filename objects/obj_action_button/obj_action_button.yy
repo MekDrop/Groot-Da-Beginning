@@ -9,6 +9,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -33,6 +34,9 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"icon","filters":[
         "GMSprite",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"onClick","filters":[
+        "GMScript",
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":5,},
   ],
   "solid": false,
