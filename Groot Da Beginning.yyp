@@ -61,6 +61,7 @@
     {"id":{"name":"ActionBorderButton","path":"sprites/ActionBorderButton/ActionBorderButton.yy",},"order":0,},
     {"id":{"name":"skipping_rope","path":"sprites/skipping_rope/skipping_rope.yy",},"order":0,},
     {"id":{"name":"DogToolAction","path":"scripts/DogToolAction/DogToolAction.yy",},"order":0,},
+    {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"order":0,},
     {"id":{"name":"heat_haze","path":"sprites/heat_haze/heat_haze.yy",},"order":0,},
     {"id":{"name":"Alkatra","path":"fonts/Alkatra/Alkatra.yy",},"order":0,},
     {"id":{"name":"WateringCan","path":"sprites/WateringCan/WateringCan.yy",},"order":0,},

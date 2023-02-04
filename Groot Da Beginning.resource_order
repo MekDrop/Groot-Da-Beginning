@@ -35,6 +35,7 @@
     {"name":"gardening_shears","order":6,"path":"sprites/gardening_shears/gardening_shears.yy",},
     {"name":"skipping_rope","order":7,"path":"sprites/skipping_rope/skipping_rope.yy",},
     {"name":"DogToolAction","order":7,"path":"scripts/DogToolAction/DogToolAction.yy",},
+    {"name":"obj_game_manager","order":6,"path":"objects/obj_game_manager/obj_game_manager.yy",},
     {"name":"heat_haze","order":2,"path":"sprites/heat_haze/heat_haze.yy",},
     {"name":"UndergroundSprite","order":2,"path":"sprites/UndergroundSprite/UndergroundSprite.yy",},
   ],
