@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_test2",
+  "name": "MainMenu",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
