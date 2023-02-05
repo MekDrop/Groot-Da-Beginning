@@ -13,5 +13,5 @@
     "11": "November",
     "12": "December"
   },
-  "current_year": "year {year}"
+  "current_year": "{year} year"
 }
