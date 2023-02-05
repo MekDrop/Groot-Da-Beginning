@@ -23,5 +23,6 @@
   "state": {
     "1": "On",
     "0": "Off"
-  }
+  },
+  "gameover": "GameOver"
 }
