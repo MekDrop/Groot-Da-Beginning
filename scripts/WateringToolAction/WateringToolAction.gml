@@ -7,7 +7,7 @@ function WateringToolAction()
 	_currentAction = "water";
 
 	
-	file = file_text_open_read("tempTree.json"); 
+	file = file_text_open_read("tree_logic.json"); 
 	json = file_text_read_string(file);
 	file_text_close(file);
 
@@ -20,17 +20,14 @@ function WateringToolAction()
 		if (data[i].new_action == _currentAction && data[i].old_action == _previousAction) 
 		{	
 			obj_game_manager.heightTreeLevel += data[i].h;
-			obj_game_manager.heightTreeLevel += data[i].w;
-			obj_game_manager.heightTreeLevel += data[i].c;
+			obj_game_manager.widthTreeLevel += data[i].w;
+			obj_game_manager.colorTreeLevel += data[i].c;
 			
 			obj_game_manager.previousAction = _currentAction;
 		}
 	}
 	
-	waterStartIndex = 0;
-	
-
-	obj_Tree.sprite_index = GetNextSprite(5,5,5);
+	obj_Tree.sprite_index = GetNextSprite(obj_game_manager.heightTreeLevel,obj_game_manager.widthTreeLevel,obj_game_manager.colorTreeLevel);
 }
 
 function GetNextSprite(height, width, color)

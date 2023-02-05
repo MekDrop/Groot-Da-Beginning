@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "h1_w5_c5",
-    "path": "sprites/h1_w5_c5/h1_w5_c5.yy",
+    "name": "h2_w2_c2",
+    "path": "sprites/h2_w2_c2/h2_w2_c2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
