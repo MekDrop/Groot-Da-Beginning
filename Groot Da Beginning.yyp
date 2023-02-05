@@ -31,7 +31,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BackgroundObjects","folderPath":"folders/Objects/BackgroundObjects.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Background","folderPath":"folders/Sprites/Background.yy","order":0,},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"en.json","CopyToMask":-1,"filePath":"datafiles/i18n",},
+  ],
   "isEcma": false,
   "MetaData": {
     "IDEVersion": "2023.1.0.58",
@@ -39,6 +41,7 @@
   "resources": [
     {"id":{"name":"HeatingToolAction","path":"scripts/HeatingToolAction/HeatingToolAction.yy",},"order":0,},
     {"id":{"name":"PruningToolAction","path":"scripts/PruningToolAction/PruningToolAction.yy",},"order":0,},
+    {"id":{"name":"obj_current_time","path":"objects/obj_current_time/obj_current_time.yy",},"order":0,},
     {"id":{"name":"GrassTexture","path":"objects/GrassTexture/GrassTexture.yy",},"order":0,},
     {"id":{"name":"large_paint_brush","path":"sprites/large_paint_brush/large_paint_brush.yy",},"order":0,},
     {"id":{"name":"PaintingToolAction","path":"scripts/PaintingToolAction/PaintingToolAction.yy",},"order":0,},

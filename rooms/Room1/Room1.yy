@@ -17,6 +17,7 @@
     {"name":"inst_406C9A5C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5D6645C6","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_50B7E48F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_56E62E14","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -54,6 +55,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_action_button","path":"objects/obj_action_button/obj_action_button.yy",},"propertyId":{"name":"icon","path":"objects/obj_action_button/obj_action_button.yy",},"value":"skipping_rope",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":896.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50B7E48F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_56E62E14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_current_time","path":"objects/obj_current_time/obj_current_time.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10.0,"y":10.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Grass","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7AE30A78","colour":4294967295,"frozen":true,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"GrassTexture","path":"objects/GrassTexture/GrassTexture.yy",},"properties":[],"rotation":0.0,"scaleX":2.8468688,"scaleY":2.7199254,"x":-13.629089,"y":-130.0,},
