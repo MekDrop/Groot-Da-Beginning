@@ -1,12 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PruningToolAction(){
-	_currentAction = "prunning";
+	_currentAction = "pruning";
 	
-	if obj_game_manager.step_number == 9
-	{
-		return;
-	}
+//	if obj_game_manager.step_number == 9
+//	{
+//		return;
+//	}
 	
 	
 	obj_game_manager.ChangeTressLogic(_currentAction);
