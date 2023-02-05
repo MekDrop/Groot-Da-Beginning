@@ -2,46 +2,24 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function WateringToolAction()
 {
-	
-	_previousAction = obj_game_manager.previousAction;
 	_currentAction = "water";
-
 	
-	file = file_text_open_read("tree_logic.json"); 
-	json = file_text_read_string(file);
-	file_text_close(file);
-
-	data = json_parse(json);
-	
-	show_debug_message(data);
-	
-	for(var i = 0; i < 2; i++)
+	if obj_game_manager.step_number == 9
 	{
-		if (data[i].new_action == _currentAction && data[i].old_action == _previousAction) 
-		{	
-			obj_game_manager.heightTreeLevel += data[i].h;
-			obj_game_manager.widthTreeLevel += data[i].w;
-			obj_game_manager.colorTreeLevel += data[i].c;
-			
-			obj_game_manager.previousAction = _currentAction;
-		}
+		return;
 	}
 	
-	obj_Tree.sprite_index = GetNextSprite(obj_game_manager.heightTreeLevel,obj_game_manager.widthTreeLevel,obj_game_manager.colorTreeLevel);
+	
+	obj_game_manager.ChangeTressLogic(_currentAction);
+	
+	
+	
+	obj_Tree.sprite_index = obj_game_manager.GetNextSprite(obj_game_manager.heightTreeLevel,
+	obj_game_manager.widthTreeLevel,
+	obj_game_manager.colorTreeLevel);
+	
+	//obj_Tree.sprite_index = obj_game_manager.GetRootSprite(obj_game_manager.rootTreeLevel);
 }
 
-function GetNextSprite(height, width, color)
-{
-	var obj = asset_get_index("h" + string(height) + "_w" + string(width) + "_c" + string(color));
-	if (obj > -1)
-	{
-		show_debug_message(obj);
-		return obj;
-	}
-	else
-	{
-		show_debug_message("N");
-	}
-	
-	return -1;
-}
+
+

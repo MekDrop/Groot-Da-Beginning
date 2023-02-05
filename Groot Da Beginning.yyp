@@ -51,6 +51,7 @@
     {"id":{"name":"h5_w2_c3","path":"sprites/h5_w2_c3/h5_w2_c3.yy",},"order":0,},
     {"id":{"name":"h2_w3_c3","path":"sprites/h2_w3_c3/h2_w3_c3.yy",},"order":0,},
     {"id":{"name":"h3_w4_c1","path":"sprites/h3_w4_c1/h3_w4_c1.yy",},"order":0,},
+    {"id":{"name":"obj_Root","path":"objects/obj_Root/obj_Root.yy",},"order":0,},
     {"id":{"name":"h5_w2_c5","path":"sprites/h5_w2_c5/h5_w2_c5.yy",},"order":0,},
     {"id":{"name":"h5_w3_c5","path":"sprites/h5_w3_c5/h5_w3_c5.yy",},"order":0,},
     {"id":{"name":"h4_w2_c5","path":"sprites/h4_w2_c5/h4_w2_c5.yy",},"order":0,},

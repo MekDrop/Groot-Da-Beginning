@@ -1,5 +1,17 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function HeatingToolAction(){
-
+	_currentAction = "heating";
+	
+	if obj_game_manager.step_number == 9
+	{
+		return;
+	}
+	
+	
+	obj_game_manager.ChangeTressLogic(_currentAction);
+	
+	obj_Tree.sprite_index = obj_game_manager.GetNextSprite(obj_game_manager.heightTreeLevel,
+	obj_game_manager.widthTreeLevel,
+	obj_game_manager.colorTreeLevel);
 }

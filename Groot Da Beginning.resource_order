@@ -30,6 +30,7 @@
     {"name":"h5_w2_c3","order":107,"path":"sprites/h5_w2_c3/h5_w2_c3.yy",},
     {"name":"h2_w3_c3","order":37,"path":"sprites/h2_w3_c3/h2_w3_c3.yy",},
     {"name":"h3_w4_c1","order":65,"path":"sprites/h3_w4_c1/h3_w4_c1.yy",},
+    {"name":"obj_Root","order":9,"path":"objects/obj_Root/obj_Root.yy",},
     {"name":"h5_w2_c5","order":109,"path":"sprites/h5_w2_c5/h5_w2_c5.yy",},
     {"name":"h5_w3_c5","order":114,"path":"sprites/h5_w3_c5/h5_w3_c5.yy",},
     {"name":"h4_w2_c5","order":84,"path":"sprites/h4_w2_c5/h4_w2_c5.yy",},
