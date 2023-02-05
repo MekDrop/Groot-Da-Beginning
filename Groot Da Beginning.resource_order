@@ -16,6 +16,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"BackgroundObjects","order":5,"path":"folders/Objects/BackgroundObjects.yy",},
     {"name":"Background","order":5,"path":"folders/Sprites/Background.yy",},
+    {"name":"Music","order":1,"path":"folders/Sounds/Music.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"HeatingToolAction","order":5,"path":"scripts/HeatingToolAction/HeatingToolAction.yy",},
@@ -25,8 +26,10 @@
     {"name":"PaintingToolAction","order":6,"path":"scripts/PaintingToolAction/PaintingToolAction.yy",},
     {"name":"UndergroundTexture","order":1,"path":"objects/UndergroundTexture/UndergroundTexture.yy",},
     {"name":"fertilizer_bag","order":3,"path":"sprites/fertilizer_bag/fertilizer_bag.yy",},
+    {"name":"New_Composition__6","order":1,"path":"sounds/New_Composition__6/New_Composition__6.yy",},
     {"name":"Grass","order":1,"path":"sprites/Grass/Grass.yy",},
     {"name":"FertilizerToolAction","order":1,"path":"scripts/FertilizerToolAction/FertilizerToolAction.yy",},
+    {"name":"obj_music_player","order":8,"path":"objects/obj_music_player/obj_music_player.yy",},
     {"name":"SkipAction","order":4,"path":"scripts/SkipAction/SkipAction.yy",},
     {"name":"SmallTree","order":3,"path":"sprites/SmallTree/SmallTree.yy",},
     {"name":"watering_can__2_","order":5,"path":"sprites/watering_can__2_/watering_can__2_.yy",},
