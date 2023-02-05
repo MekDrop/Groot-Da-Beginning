@@ -13,5 +13,15 @@
     "11": "November",
     "12": "December"
   },
-  "current_year": "{year} year"
+  "current_year": "{year} year",
+  "menu": {
+    "resume": "Resume",
+    "restart": "Restart",
+    "turn_music": "Music: {state}",
+    "exit": "Exit"
+  },
+  "state": {
+    "1": "On",
+    "0": "Off"
+  }
 }

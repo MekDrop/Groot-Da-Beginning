@@ -1,0 +1,3 @@
+/// @description Music stoped
+
+stop();
