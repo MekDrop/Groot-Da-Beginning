@@ -18,7 +18,7 @@ function WateringToolAction()
 	obj_game_manager.widthTreeLevel,
 	obj_game_manager.colorTreeLevel);
 	
-	//obj_Tree.sprite_index = obj_game_manager.GetRootSprite(obj_game_manager.rootTreeLevel);
+	obj_Root.sprite_index = obj_game_manager.GetRootSprite(obj_game_manager.rootTreeLevel);
 }
 
 

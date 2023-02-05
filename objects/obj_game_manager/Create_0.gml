@@ -1,5 +1,7 @@
 step_number = 1;
 
+gameOver = false;
+
 heightTreeLevel = 2;
 widthTreeLevel = 2;
 colorTreeLevel = 2;
@@ -25,6 +27,9 @@ function calc_current_year() {
 
 function ChangeTressLogic(currentAction)
 {
+	if gameOver == true
+	return;
+	
 	for(var i = 0; i < 32; i++)
 	{
 		if (jsonDat[i].new_action == currentAction && jsonDat[i].old_action == previousAction) 
@@ -40,6 +45,12 @@ function ChangeTressLogic(currentAction)
 			
 			previousAction = currentAction;
 			step_number +=1;
+			
+			
+			if (heightTreeLevel < 1 || widthTreeLevel < 1 || colorTreeLevel < 1 || rootTreeLevel < 1 ) 
+			{
+				gameOver = true;	
+			}
 		}
 	}
 	

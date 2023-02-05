@@ -14,4 +14,6 @@ function SkipAction(){
 	obj_Tree.sprite_index = obj_game_manager.GetNextSprite(obj_game_manager.heightTreeLevel,
 	obj_game_manager.widthTreeLevel,
 	obj_game_manager.colorTreeLevel);
+	
+	obj_Root.sprite_index = obj_game_manager.GetRootSprite(obj_game_manager.rootTreeLevel);
 }
