@@ -101,3 +101,7 @@ function GetRootSprite(r)
 	
 	return -1;
 }
+
+function getFinalScore() {
+	return (heightTreeLevel + rootTreeLevel + widthTreeLevel + colorTreeLevel);
+}
