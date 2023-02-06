@@ -3,10 +3,10 @@
 function DogToolAction(){
 	_currentAction = "dog";
 	
-	if obj_game_manager.step_number == 9
-	{
-		return;
-	}
+//	if obj_game_manager.step_number == 9
+//	{
+//		return;
+//	}
 	
 	
 	obj_game_manager.ChangeTressLogic(_currentAction);
