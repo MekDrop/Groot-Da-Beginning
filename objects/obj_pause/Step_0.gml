@@ -115,13 +115,14 @@ if ( pause ){
 				room_restart();
 			break;
 			case 2: // Music
-				music_enabled = not music_enabled;
+				obj_game_manager.settings.music.enabled = not obj_game_manager.settings.music.enabled;
 				bstring[b]	= getMusicMenuItemStr();
-				if (music_enabled) {
+				if (obj_game_manager.settings.music.enabled) {
 					obj_music_player.start();
 				} else {
 					obj_music_player.stop();
 				}
+				obj_game_manager.saveSettings();
 			break;
 			case 3: // Exit
 				game_end();

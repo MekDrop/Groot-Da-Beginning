@@ -1,6 +1,7 @@
 /// @description Pause
 instance_deactivate_all( true );
 instance_activate_object(obj_music_player);
+instance_activate_object(obj_game_manager);
 //audio_pause_all();
 //instance_activate_object( ... ); //Activate persistant objects like Cameras & Controllers!
 

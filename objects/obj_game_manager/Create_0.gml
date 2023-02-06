@@ -105,3 +105,17 @@ function GetRootSprite(r)
 function getFinalScore() {
 	return (heightTreeLevel + rootTreeLevel + widthTreeLevel + colorTreeLevel);
 }
+
+function saveSettings() {
+  ini_open("settings.ini");  
+  ini_write_real("music", "enabled", real(settings.music.enabled));
+  ini_close(); 
+}
+
+ini_open("settings.ini");
+settings = {
+   music: {
+	   enabled: bool(ini_read_real("music", "enabled", true))
+   },
+};
+ini_close(); 

@@ -13,7 +13,7 @@ gpu_set_tex_filter( false );
 
 #region Helper functions
 function getMusicMenuItemStr() {
-   return  str("menu.turn_music", {state: str("state." + string(music_enabled))});
+   return  str("menu.turn_music", {state: str("state." + string(obj_game_manager.settings.music.enabled))});
 }
 #endregion
 
