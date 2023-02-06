@@ -3,11 +3,11 @@
 function PaintingToolAction(){
 	_currentAction = "painting";
 	
-	if obj_game_manager.step_number == 9
-	{
-		return;
-	}
-	
+//	if obj_game_manager.step_number == 9
+//	{
+//		return;
+//	}
+	show_debug_message("painting")
 	
 	obj_game_manager.ChangeTressLogic(_currentAction);
 	

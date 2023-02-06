@@ -1,6 +1,7 @@
 step_number = 1;
 
 gameOver = false;
+endTurns = false;
 
 heightTreeLevel = 2;
 widthTreeLevel = 2;
@@ -27,13 +28,16 @@ function calc_current_year() {
 
 function ChangeTressLogic(currentAction)
 {
-	if gameOver == true
+	show_debug_message(currentAction)
+	show_debug_message(previousAction)
+	if gameOver == true || endTurns == true
 	return;
 	
-	for(var i = 0; i < 32; i++)
+	for(var i = 0; i < array_length(jsonDat); i++)
 	{
 		if (jsonDat[i].new_action == currentAction && jsonDat[i].old_action == previousAction) 
 		{	
+			show_debug_message("caramba")
 			heightTreeLevel += jsonDat[i].h;
 			if heightTreeLevel > 5 heightTreeLevel = 5;
 			widthTreeLevel += jsonDat[i].w;
@@ -51,6 +55,11 @@ function ChangeTressLogic(currentAction)
 			{
 				gameOver = true;	
 			}
+			if (step_number > 11) 
+			{
+				endTurns = true;	
+			}
+			show_debug_message("here")
 		}
 	}
 	

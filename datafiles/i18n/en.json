@@ -24,5 +24,7 @@
     "1": "On",
     "0": "Off"
   },
-  "gameover": "GameOver"
+  "gameover": "There is no more Groot, Game Over",
+  "endturns": "There is no more time to grow!!!",
+  "finalscore": "Final Score"
 }
