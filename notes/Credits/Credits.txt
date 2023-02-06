@@ -8,3 +8,9 @@ Music composed by AIVA - Artificial Intelligence Virtual Artist (https://www.aiv
 
 ASSET Pause Menu- Basic
 https://marketplace.yoyogames.com/publishers/2332/jasontomlee
+
+game over (sound) by Leszek_Szary
+https://freesound.org/s/133283/
+
+Game_over.wav (sound) by ????
+https://freesound.org/people/deleted_user_877451/sounds/76376/
