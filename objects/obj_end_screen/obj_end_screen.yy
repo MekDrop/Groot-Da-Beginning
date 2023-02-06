@@ -26,7 +26,14 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"game_over_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"_76376__deleted_user_877451__game_over","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"end_turns_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"_133283__leszek_szary__game_over","varType":5,},
+  ],
   "solid": false,
   "spriteId": null,
   "spriteMaskId": null,

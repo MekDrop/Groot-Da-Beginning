@@ -23,3 +23,12 @@ function drawEndScreen(gameOverStr) {
 	draw_set_valign(_old_valign);
 	draw_set_halign(_old_halign);
 }
+
+sound_played = false;
+
+function playSoundOnce(sound) {
+  if (not sound_played) {
+	audio_play_sound(sound, 1000, false);
+	sound_played = true;
+  }
+}
