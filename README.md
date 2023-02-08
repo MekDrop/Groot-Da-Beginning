@@ -1,12 +1,12 @@
-![GitHub](https://img.shields.io/github/license/MekDrop/Groot-Da-Beginning) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/MekDrop/Groot-Da-Beginning?include_prereleases) 
+[![GitHub](https://img.shields.io/github/license/MekDrop/Groot-Da-Beginning)](license.txt) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/MekDrop/Groot-Da-Beginning?include_prereleases)](https://github.com/MekDrop/Groot-Da-Beginning/releases)
 
 # Groot: Da Beginning
 
 Grow the tree from the roots so that it bears as many fruits as possible.
 
-This game was created as [Global Game Jam 2023](https://globalgamejam.org) project with amazing team of @xvivax, @supersigmas and @MekDrop.
+This game was created as [Global Game Jam 2023](https://globalgamejam.org) project with amazing team of [xvivax](https://github.com/xvivax/), [supersigmas](https://github.com/supersigmas/) and [MekDrop](https://github.com/MekDrop/).
 
-Some parts aren't completed yet.
+Some parts aren't completed yet and possible will not be completed ever.
 
 ## Screenshots
 
